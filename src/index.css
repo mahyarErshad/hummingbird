@@ -1,4 +1,20 @@
-*{
+@font-face {
+  font-family: YekanBakh;
+  src: url(../public/assets/fonts/YekanBakhFaNum-Light.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: YekanBakh;
+  src: url(../public/assets/fonts/YekanBakh-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: YekanBakh;
+  src: url(../public/assets/fonts/YekanBakh-Bold.woff2);
+  font-weight: 700;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
