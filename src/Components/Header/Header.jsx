@@ -36,7 +36,7 @@ function Navbar() {
           </div>
           <div className="flex-center gap-4">
             <img className="h-6 w-6" src={logo} alt="Logo" />
-            <div>
+            <div className="flex-center gap-1">
               <h1>هامینگ برد</h1>
               <span>حرفه ایی</span>
             </div>
