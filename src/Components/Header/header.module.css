@@ -16,3 +16,6 @@
   transform: rotateZ(0deg);
   transition: all ease 500ms;
 }
+.borderBottom {
+  border-bottom: 1px solid #e6e6e6;
+}
