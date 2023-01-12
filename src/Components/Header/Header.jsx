@@ -44,9 +44,9 @@ function Navbar() {
       <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
         {() => (
           <div className={`lg:hidden ${styles.borderBottom}`} id="mobile-menu">
-            <ul ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <NavLinks />
-            </ul>
+            </div>
           </div>
         )}
       </Transition>
