@@ -39,9 +39,6 @@ body,
   justify-content: center;
   align-items: center;
 }
-.logo-svg-bg {
-  transition: all ease 300ms;
-}
 .svg-parent:hover .logo-svg-bg {
   fill: black;
 }
