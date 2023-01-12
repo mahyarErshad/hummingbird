@@ -3,6 +3,7 @@ import styles from "./header.module.css";
 import logo from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "./HeaderNavLinks";
+import { goToTop } from "../../lib/globalFunctions";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ function Navbar() {
               {/* burger icon */}
             </button>
           </div>
-          <div className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85] transition-all">
+          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85] transition-all">
             <img className="h-6 w-6" src={logo} alt="Logo" />
             <div className="flex-center gap-1">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
