@@ -2,7 +2,7 @@ import React, { memo, useState } from "react";
 import styles from "./header.module.css"
 import logo from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
-import HeaderNavLinks from "../../Utils/HeaderNavLinks/HeaderNavLinks";
+import HeaderNavLinks from "./HeaderNavLinks";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
