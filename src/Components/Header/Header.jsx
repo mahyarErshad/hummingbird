@@ -13,6 +13,10 @@ function Navbar() {
     return (
       <>
         <HeaderNavLinks text="بررسی اجمالی" />
+        <HeaderNavLinks text="ویژگی ها" />
+        <HeaderNavLinks text="سوالات متداول" />
+        <HeaderNavLinks text="مستندات" />
+        <HeaderNavLinks noBorder text="ترجمه ها" />
       </>
     );
   };
