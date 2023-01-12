@@ -1,5 +1,5 @@
 import React, { memo, useState } from "react";
-import styles from "./header.module.css"
+import styles from "./header.module.css";
 import logo from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "./HeaderNavLinks";
@@ -34,7 +34,13 @@ function Navbar() {
               {/* burger icon */}
             </button>
           </div>
-          <img className="max-md:max-w-[9.375rem] md:max-w-[12.5rem]" src={logo} alt="Logo" />
+          <div className="flex-center">
+            <img className="h-6 w-6" src={logo} alt="Logo" />
+            <div>
+              <h1>هامینگ برد</h1>
+              <span>حرفه ایی</span>
+            </div>
+          </div>
         </div>
       </div>
       <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
