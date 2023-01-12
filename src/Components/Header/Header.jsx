@@ -21,7 +21,7 @@ function Navbar() {
   };
   return (
     <header className={styles.wrapper}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center justify-between lg:flex-row-reverse h-16">
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
