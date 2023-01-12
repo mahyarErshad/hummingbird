@@ -21,7 +21,6 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center lg:justify-between max-lg:justify-center flex-row-reverse h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0"></div>
             <div className="hidden lg:block">
               <ul className="ml-10 flex items-baseline gap-10">
                 <NavLinks />
@@ -34,7 +33,7 @@ function Navbar() {
               {/* burger icon */}
             </button>
           </div>
-          <div className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85]">
+          <div className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85] transition-all">
             <img className="h-6 w-6" src={logo} alt="Logo" />
             <div className="flex-center gap-1">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
