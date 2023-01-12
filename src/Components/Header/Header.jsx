@@ -3,8 +3,6 @@ import styles from "./header.module.css"
 import logo from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "../../Utils/HeaderNavLinks/HeaderNavLinks";
-import { ReactComponent as CloseIcon } from "../../../assets/images/closeIcon.svg";
-import { ReactComponent as BurgerMenuIcon } from "../../../assets/images/burgerMenuIcon.svg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
