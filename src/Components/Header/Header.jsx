@@ -34,7 +34,7 @@ function Navbar() {
               {/* burger icon */}
             </button>
           </div>
-          <div className="flex-center gap-3 cursor-pointer h-full">
+          <div className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85]">
             <img className="h-6 w-6" src={logo} alt="Logo" />
             <div className="flex-center gap-1">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
