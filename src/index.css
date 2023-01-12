@@ -43,5 +43,5 @@ body,
   transition: all ease 300ms;
 }
 .svg-parent:hover .logo-svg-bg {
-  fill: black;
+  fill: rgb(32, 32, 32);
 }
