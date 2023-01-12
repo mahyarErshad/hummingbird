@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderNavLinks() {
+function HeaderNavLinks({target , href , text}) {
   return (
     <div>HeaderNavLinks</div>
   )
