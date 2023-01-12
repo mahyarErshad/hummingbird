@@ -9,3 +9,11 @@
     position: absolute;
     top: 0;
 }
+.menuOpen{
+    transform: rotateZ(-180deg);
+    transition: all ease 500ms;
+}
+.menuClose{
+    transform: rotateZ(0deg);
+    transition: all ease 500ms;
+}
