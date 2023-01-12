@@ -36,7 +36,7 @@ function Navbar() {
               </ul>
             </div>
           </div>
-          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:text-primary transition-all duration-300 svg-parent">
+          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:text-primary border-black hover:border-primary transition-all duration-300 svg-parent">
             <Logo className="w-6 h-6" />
             <div className="flex-center gap-1 border-inherit">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
