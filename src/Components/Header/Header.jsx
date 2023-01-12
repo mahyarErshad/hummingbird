@@ -25,7 +25,7 @@ function Navbar() {
         <div className="flex items-center justify-between lg:flex-row-reverse h-16">
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
-              <FontAwesomeIcon icon={faChevronUp} />
+              <FontAwesomeIcon className={isOpen ? styles.menuOpen : styles.menuClose} icon={faChevronUp} />
             </button>
           </div>
           <div className="flex items-center">
