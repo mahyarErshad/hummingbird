@@ -16,7 +16,7 @@ function Navbar() {
         <HeaderNavLinks text="ویژگی ها" />
         <HeaderNavLinks text="سوالات متداول" />
         <HeaderNavLinks text="مستندات" />
-        <HeaderNavLinks noBorder text="ترجمه ها" />
+        <HeaderNavLinks text="ترجمه ها" />
       </>
     );
   };
@@ -40,7 +40,7 @@ function Navbar() {
             <img className="h-6 w-6" src={logo} alt="Logo" />
             <div className="flex-center gap-1">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
-              <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-black">حرفه ایی</span>
+              <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-black">حرفه ای</span>
             </div>
           </div>
         </div>
