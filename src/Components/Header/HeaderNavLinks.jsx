@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from "./header.module.css";
 
-function HeaderNavLinks({target , href , text}) {
+function HeaderNavLinks({ target, href, text }) {
   return (
-    <div>HeaderNavLinks</div>
-  )
+    <a href={href || ""} target={target || ""}>
+      <span>{text}</span>
+    </a>
+  );
 }
 
-export default HeaderNavLinks
+export default HeaderNavLinks;
