@@ -17,7 +17,9 @@
   src: url(../public/assets/fonts/YekanBakh-Bold.woff2);
   font-weight: 700;
 }
-
+:root {
+  --primary-color: #ff8d3b;
+}
 * {
   margin: 0;
   padding: 0;
@@ -36,4 +38,10 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.logo-svg-bg {
+  transition: all ease 300ms;
+}
+.svg-parent:hover .logo-svg-bg {
+  fill: black;
 }

@@ -1,6 +1,6 @@
 import React, { memo, useState } from "react";
 import styles from "./header.module.css";
-import logo from "../../assets/images/logo.svg";
+import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "./HeaderNavLinks";
 import { goToTop } from "../../lib/globalFunctions";
@@ -36,8 +36,8 @@ function Navbar() {
               </ul>
             </div>
           </div>
-          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:text-primary transition-all duration-300 border-black hover:border-primary">
-            <img className="h-6 w-6" src={logo} alt="Logo" />
+          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:text-primary transition-all duration-300 svg-parent">
+            <Logo className="w-6 h-6" />
             <div className="flex-center gap-1 border-inherit">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
               <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-inherit">حرفه ای</span>
