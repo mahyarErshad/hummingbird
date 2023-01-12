@@ -4,6 +4,8 @@ import logo from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "./HeaderNavLinks";
 import { goToTop } from "../../lib/globalFunctions";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,19 +22,18 @@ function Navbar() {
   return (
     <header className={styles.wrapper}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center lg:justify-between max-lg:justify-center flex-row-reverse h-16">
+        <div className="flex items-center justify-between lg:flex-row-reverse h-16">
+          <div className="-mr-2 flex lg:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
+              <FontAwesomeIcon icon={faChevronUp} />
+            </button>
+          </div>
           <div className="flex items-center">
             <div className="hidden lg:block">
               <ul className="ml-10 flex items-baseline gap-10">
                 <NavLinks />
               </ul>
             </div>
-          </div>
-          <div className="-mr-2 flex lg:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-primary absolute right-[10%] top-[3.2%] inline-flex items-center justify-center p-2 rounded-md text-white hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
-              <span className="sr-only">Open main menu</span>
-              {/* burger icon */}
-            </button>
           </div>
           <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85] transition-all">
             <img className="h-6 w-6" src={logo} alt="Logo" />
