@@ -34,7 +34,7 @@ function Navbar() {
               {/* burger icon */}
             </button>
           </div>
-          <div className="flex-center">
+          <div className="flex-center gap-4">
             <img className="h-6 w-6" src={logo} alt="Logo" />
             <div>
               <h1>هامینگ برد</h1>
