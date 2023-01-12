@@ -31,7 +31,7 @@ function Navbar() {
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-primary absolute right-[10%] top-[3.2%] inline-flex items-center justify-center p-2 rounded-md text-white hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
               <span className="sr-only">Open main menu</span>
-              {!isOpen ? <BurgerMenuIcon width="1.5rem" /> : <CloseIcon width="1.5rem" />}
+              {/* burger icon */}
             </button>
           </div>
           <img className="max-md:max-w-[9.375rem] md:max-w-[12.5rem]" src={logo} alt="Logo" />
