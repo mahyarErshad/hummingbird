@@ -21,9 +21,9 @@ function Navbar() {
     );
   };
   return (
-    <header className={styles.wrapper}>
+    <header className={`${styles.wrapper} shadow-md`}>
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
-        <div className="flex items-center justify-between lg:flex-row-reverse h-16">
+        <div className="flex items-center justify-between flex-row-reverse h-16">
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
               <FontAwesomeIcon className={isOpen ? styles.menuOpen : styles.menuClose} icon={faChevronDown} />
@@ -36,11 +36,11 @@ function Navbar() {
               </ul>
             </div>
           </div>
-          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:opacity-[0.85] transition-all">
+          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:text-primary transition-all duration-300 border-black hover:border-primary">
             <img className="h-6 w-6" src={logo} alt="Logo" />
-            <div className="flex-center gap-1">
+            <div className="flex-center gap-1 border-inherit">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
-              <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-black">حرفه ای</span>
+              <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-inherit">حرفه ای</span>
             </div>
           </div>
         </div>
