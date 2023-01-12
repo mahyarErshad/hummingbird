@@ -5,7 +5,7 @@ import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "./HeaderNavLinks";
 import { goToTop } from "../../lib/globalFunctions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ function Navbar() {
         <div className="flex items-center justify-between lg:flex-row-reverse h-16">
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
-              <FontAwesomeIcon className={isOpen ? styles.menuOpen : styles.menuClose} icon={faChevronUp} />
+              <FontAwesomeIcon className={isOpen ? styles.menuOpen : styles.menuClose} icon={faChevronDown} />
             </button>
           </div>
           <div className="flex items-center">
