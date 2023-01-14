@@ -5,7 +5,9 @@ import slider2 from "../../assets/images/slider/slider2.webp";
 import slider3 from "../../assets/images/slider/slider3.webp";
 
 function Slider() {
-  return <></>;
+  return (
+<></>
+  );
 }
 
 export default Slider;
