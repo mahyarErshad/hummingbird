@@ -44,3 +44,21 @@ body,
 .svg-parent:hover .logo-svg-bg {
   fill: rgb(32, 32, 32);
 }
+.swiper {
+  width: 80%;
+  height: 25rem;
+  border-radius: 5px;
+  margin-top: 5rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: auto;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
