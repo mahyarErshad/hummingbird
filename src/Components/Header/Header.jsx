@@ -21,7 +21,7 @@ function Navbar() {
     );
   };
   return (
-    <header className={`${styles.wrapper} shadow-md fixed top-0 z-10`}>
+    <header className={`${styles.wrapper} shadow-md fixed ${styles.bg} top-0 z-10`}>
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center justify-between flex-row-reverse h-16">
           <div className="-mr-2 flex lg:hidden">
