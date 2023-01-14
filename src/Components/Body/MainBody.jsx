@@ -1,12 +1,12 @@
-import React from 'react'
-import Banner from './Banner'
+import React from "react";
+import Banner from "./Banner";
 
 function MainBody() {
   return (
     <>
-        <Banner />
+      <Banner />
     </>
-  )
+  );
 }
 
-export default MainBody
+export default MainBody;
