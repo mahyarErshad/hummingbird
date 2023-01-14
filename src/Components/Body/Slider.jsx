@@ -11,7 +11,7 @@ function Slider() {
     <HeroSlider
       height={"40vh"}
       className="mt-20 w-[90%] mx-auto rounded-md"
-      autoplay
+      // autoplay
       controller={{
         initialSlide: 1,
         slidingDuration: 500,

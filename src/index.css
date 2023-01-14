@@ -48,3 +48,6 @@ body,
 .hero-slider-next {
   margin: 0 1rem;
 }
+.hero-slider-slide-background-image {
+  object-fit: fill !important;
+}
