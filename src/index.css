@@ -44,10 +44,3 @@ body,
 .svg-parent:hover .logo-svg-bg {
   fill: rgb(32, 32, 32);
 }
-.hero-slider-previous,
-.hero-slider-next {
-  margin: 0 1rem;
-}
-.hero-slider-slide-background-image {
-  object-fit: fill !important;
-}
