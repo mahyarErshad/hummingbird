@@ -1,10 +1,10 @@
 import React from "react";
-import Banner from "./Banner";
+import Slider from "./Slider";
 
 function MainBody() {
   return (
     <main className="mt-[3.75rem]">
-      <Banner />
+      <Slider />
     </main>
   );
 }
