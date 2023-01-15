@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 
 function Banner() {
   return <></>;
 }
 
-export default Banner;
+export default memo(Banner);
