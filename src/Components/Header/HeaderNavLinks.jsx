@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import styles from "./header.module.css";
 
 function HeaderNavLinks({ target, href, text }) {
@@ -9,4 +9,4 @@ function HeaderNavLinks({ target, href, text }) {
   );
 }
 
-export default HeaderNavLinks;
+export default memo(HeaderNavLinks);
