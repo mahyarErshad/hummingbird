@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Banner from "./Banner";
 
 function MainBody() {
@@ -9,4 +9,4 @@ function MainBody() {
   );
 }
 
-export default MainBody;
+export default memo(MainBody);
