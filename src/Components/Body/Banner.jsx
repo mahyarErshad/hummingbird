@@ -6,6 +6,7 @@ import responseTime from "../../assets/images/ResponseTime.svg";
 import speedTest from "../../assets/images/speedTest.svg";
 import performance from "../../assets/images/performance.svg";
 import caching from "../../assets/images/caching.svg";
+import safeMode from "../../assets/images/safeMode.svg";
 
 function Banner() {
   return (
@@ -45,7 +46,7 @@ function Banner() {
           <p className="max-md:text-base md:text-2xl">یک داشبورد مرکزی برای نظارت، تجزیه و تحلیل و بهینه سازی عملکرد تمام وب سایت های شما.</p>
         </div>
         <div className="w-2/4 max-md:w-full">
-          <img src={responseTime} alt="response time" className="shadow-lg mx-auto" />
+          <img src={safeMode} alt="response time" className="shadow-lg mx-auto" />
         </div>
       </div>
     </>
