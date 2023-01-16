@@ -48,10 +48,6 @@ body,
   background-image: url(./assets/images/bannerDots.svg);
   padding: 2.5rem 3.125rem 2.5rem 4.6875rem;
   margin: 5rem auto;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   text-align: right;
   background-color: #1b6169;
   border-radius: 20px;
