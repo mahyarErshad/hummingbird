@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { ReactComponent as BannerImage } from "../../assets/images/banner.svg";
 import fiveStars from "../../assets/images/fiveStars.jpg";
 import trustPilot from "../../assets/images/trustPilot.JPG";
-import responseTime from "../../assets/images/ResponseTime.svg";
+import responseTime from "../../assets/images/ResponseTime.png";
 import speedTest from "../../assets/images/speedTest.png";
 import performance from "../../assets/images/performance.svg";
 import caching from "../../assets/images/caching.png";
