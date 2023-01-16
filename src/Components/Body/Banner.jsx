@@ -3,6 +3,8 @@ import { ReactComponent as BannerImage } from "../../assets/images/banner.svg";
 import fiveStars from "../../assets/images/fiveStars.jpg";
 import trustPilot from "../../assets/images/trustPilot.JPG";
 import responseTime from "../../assets/images/ResponseTime.svg";
+import speedTest from "../../assets/images/speedTest.svg";
+import performance from "../../assets/images/performance.svg";
 
 function Banner() {
   return (
@@ -25,6 +27,14 @@ function Banner() {
         </div>
         <div className="w-2/4 max-md:w-full">
           <img src={responseTime} alt="response time" className="shadow-lg mx-auto" />
+        </div>
+      </div>
+      <div className="flex max-md:flex-center md:items-start md:justify-between w-full max-md:flex-col max-md:gap-4 md:gap-8 max-md:mt-6 md:mt-8">
+        <div className="w-2/4 max-md:w-full">
+          <img src={speedTest} alt="response time" className="shadow-lg mx-auto" />
+        </div>
+        <div className="w-2/4 max-md:w-full">
+          <img src={performance} alt="response time" className="shadow-lg mx-auto" />
         </div>
       </div>
     </>
