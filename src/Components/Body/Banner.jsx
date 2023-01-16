@@ -8,6 +8,10 @@ function Banner() {
         <p className="font-bold max-md:text-3xl md:text-[2.5rem] flex-shrink-0 text-white max-lg:w-full w-[50%]">سایت های وردپرسی سریع تر، سبک تر و بهینه تری داشته باشید.</p>
         <BannerImage className="max-md:hidden" />
       </section>
+     <div className="w-full flex-center">
+     <p>مشتری های ما میگن</p>
+     <strong>عالی</strong>
+     </div>
     </>
   );
 }
