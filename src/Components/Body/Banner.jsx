@@ -48,7 +48,7 @@ function Banner() {
           <div className="flex justify-start items-center gap-4 flex-wrap">
             <SafeModeCard text="اتوماتیک یا دستی" />
             <SafeModeCard text="عملکرد حداکثری" />
-            <SafeModeCard hasNew text="حالت ایمن" />
+            <SafeModeCard isNew text="حالت ایمن" />
             <SafeModeCard text="فایل های فوق فشرده" />
             <SafeModeCard text="خدمت رسانی از طریق CDN" />
           </div>
