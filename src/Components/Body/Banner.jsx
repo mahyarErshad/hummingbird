@@ -5,6 +5,7 @@ import trustPilot from "../../assets/images/trustPilot.JPG";
 import responseTime from "../../assets/images/ResponseTime.svg";
 import speedTest from "../../assets/images/speedTest.svg";
 import performance from "../../assets/images/performance.svg";
+import caching from "../../assets/images/caching.svg";
 
 function Banner() {
   return (
@@ -35,6 +36,7 @@ function Banner() {
         </div>
         <div className="w-2/4 max-md:w-full">
           <img src={performance} alt="response time" className="shadow-lg mx-auto" />
+          <img src={caching} alt="response time" className="shadow-lg mx-auto" />
         </div>
       </div>
     </>
