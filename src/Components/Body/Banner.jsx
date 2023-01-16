@@ -1,7 +1,9 @@
 import React, { memo } from "react";
 
 function Banner() {
-  return <></>;
+  return <section className="banner">
+
+  </section>;
 }
 
 export default memo(Banner);
