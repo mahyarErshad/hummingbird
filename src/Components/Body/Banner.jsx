@@ -5,7 +5,7 @@ import trustPilot from "../../assets/images/trustPilot.JPG";
 import responseTime from "../../assets/images/ResponseTime.svg";
 import speedTest from "../../assets/images/speedTest.svg";
 import performance from "../../assets/images/performance.svg";
-import caching from "../../assets/images/caching.svg";
+import caching from "../../assets/images/caching.png";
 import safeMode from "../../assets/images/safeMode.svg";
 import SafeModeCard from "../Utils/SafeModeCard/SafeModeCard";
 
