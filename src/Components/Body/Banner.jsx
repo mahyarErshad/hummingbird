@@ -45,7 +45,13 @@ function Banner() {
         <div className="w-2/4 max-md:flex-center flex flex-col gap-4 max-md:w-full">
           <p className="max-md:text-base md:text-2xl font-bold">بهینه سازی آسان و ایمن</p>
           <p>به راحتی فایل های HTML، جاوا اسکریپت و CSS را که می توانند فشرده، ترکیب یا جابجا شوند تا عملکرد را به حداکثر برسانند را شناسایی کنید. قبل از اجرای زنده با حالت ایمن داخلی، تغییرات را آزمایش کنید.</p>
-          <SafeModeCard text="اتوماتیک یا دستی" />
+          <div className="flex justify-start items-center gap-4 flex-wrap">
+            <SafeModeCard text="اتوماتیک یا دستی" />
+            <SafeModeCard text="عملکرد حداکثری" />
+            <SafeModeCard text="حالت ایمن" />
+            <SafeModeCard text="فایل های فوق فشرده" />
+            <SafeModeCard text="خدمت رسانی از طریق CDN" />
+          </div>
         </div>
         <div className="w-2/4 max-md:w-full">
           <img src={safeMode} alt="response time" className="mx-auto" />
