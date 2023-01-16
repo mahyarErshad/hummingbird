@@ -44,7 +44,7 @@ function Banner() {
         <div className="w-2/4 max-md:flex-center flex flex-col gap-4 max-md:w-full">
           <p className="max-md:text-base md:text-2xl font-bold">بهینه سازی آسان و ایمن</p>
           <p>به راحتی فایل های HTML، جاوا اسکریپت و CSS را که می توانند فشرده، ترکیب یا جابجا شوند تا عملکرد را به حداکثر برسانند را شناسایی کنید. قبل از اجرای زنده با حالت ایمن داخلی، تغییرات را آزمایش کنید.</p>
-          <span className="rounded-[30px] font-bold text-sm py-2 px-4 border-[1px] border-[#e6e6e6] w-fit">اتوماتیک یا دستی</span>
+
         </div>
         <div className="w-2/4 max-md:w-full">
           <img src={safeMode} alt="response time" className="mx-auto" />
