@@ -20,7 +20,7 @@ function Banner() {
         <p className="text-sm whitespace-nowrap">مشتری های ما میگن</p>
         <strong className="text-base">عالی</strong>
         <img src={fiveStars} alt="rating" className="max-md:hidden" />
-        <p className="text-sm whitespace-nowrap">4.9 از 5 طبق 2500 نظر در</p>
+        <p className="text-sm whitespace-nowrap">4.9 از 5 طبق 2500+ نظر در</p>
         <img src={trustPilot} alt="Trust Pilot" />
       </div>
       <div className="flex-center max-md:flex-col gap-8">
