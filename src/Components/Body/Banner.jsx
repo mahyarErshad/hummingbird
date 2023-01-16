@@ -14,15 +14,18 @@ function Banner() {
       <div className="w-full flex-center gap-2 flex-wrap mb-24">
         <p className="text-sm whitespace-nowrap">مشتری های ما میگن</p>
         <strong className="text-base">عالی</strong>
-        <img src={fiveStars} alt="rating" />
+        <img src={fiveStars} alt="rating" className="max-md:hidden" />
         <p className="text-sm whitespace-nowrap">4.9 از 5 طبق 2500 نظر در</p>
         <img src={trustPilot} alt="Trust Pilot" />
       </div>
-      <div className="flex justify-between items-start gap-8">
-        <div className="w-2/4">
-          <img src={responseTime} alt="response time" className="shadow-md" />
+      <div className="flex-center max-md:flex-col gap-8">
+        <div className="w-2/4 max-md:flex-center flex flex-col gap-4 max-md:w-full">
+          <p className="max-md:text-base md:text-2xl font-bold">مجموعه عملکرد نهایی</p>
+          <p className="max-md:text-base md:text-2xl">یک داشبورد مرکزی برای نظارت، تجزیه و تحلیل و بهینه سازی عملکرد تمام وب سایت های شما.</p>
         </div>
-        <div className="w-2/4"></div>
+        <div className="w-2/4 max-md:w-full">
+          <img src={responseTime} alt="response time" className="shadow-md mx-auto" />
+        </div>
       </div>
     </>
   );
