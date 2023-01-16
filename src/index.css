@@ -46,9 +46,8 @@ body,
 }
 .banner-wrapper {
   background-image: url(./assets/images/bannerDots.svg);
-  padding: 2.5rem 3.125rem 2.5rem 4.6875rem;
-  margin: 5rem auto;
-  text-align: right;
+  padding: 2.5rem 4rem;
+  margin: 6rem auto;
   background-color: #1b6169;
   border-radius: 20px;
 }
