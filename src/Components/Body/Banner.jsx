@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
-function Slider() {
+function Banner() {
   return <></>;
 }
 
-export default memo(Slider);
+export default memo(Banner);
