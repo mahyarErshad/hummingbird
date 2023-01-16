@@ -34,9 +34,9 @@ function Banner() {
         <div className="w-2/4 max-md:w-full">
           <img src={speedTest} alt="response time" className="shadow-lg mx-auto" />
         </div>
-        <div className="w-2/4 max-md:w-full">
-          <img src={performance} alt="response time" className="shadow-lg mx-auto" />
-          <img src={caching} alt="response time" className="shadow-lg mx-auto" />
+        <div className="w-2/4 max-md:w-full flex flex-col max-md:gap-6 md:gap-8">
+          <img src={performance} alt="response time" className="shadow-lg mx-auto w-full" />
+          <img src={caching} alt="response time" className="shadow-lg mx-auto w-full" />
         </div>
       </div>
     </>
