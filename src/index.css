@@ -49,8 +49,6 @@ body,
   padding: 2.5rem 3.125rem 2.5rem 4.6875rem;
   margin: 5rem auto;
   display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
