@@ -4,7 +4,7 @@ import fiveStars from "../../assets/images/fiveStars.jpg";
 import trustPilot from "../../assets/images/trustPilot.JPG";
 import responseTime from "../../assets/images/ResponseTime.png";
 import speedTest from "../../assets/images/speedTest.png";
-import performance from "../../assets/images/performance.svg";
+import performance from "../../assets/images/performance.png";
 import caching from "../../assets/images/caching.png";
 import safeMode from "../../assets/images/safeMode.svg";
 import SafeModeCard from "../Utils/SafeModeCard/SafeModeCard";
