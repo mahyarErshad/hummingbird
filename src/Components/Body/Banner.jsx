@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import { ReactComponent as BannerImage } from "../../assets/images/banner.svg";
 import fiveStars from "../../assets/images/fiveStars.jpg";
+import trustPilot from "../../assets/images/trustPilot.JPG";
 
 function Banner() {
   return (
@@ -13,6 +14,8 @@ function Banner() {
         <p className="text-sm">مشتری های ما میگن</p>
         <strong className="text-base">عالی</strong>
         <img src={fiveStars} alt="rating" />
+        <p className="text-sm">4.9 از 5 طبق 2500 نظر در</p>
+        <img src={trustPilot} alt="Trust Pilot" />
       </div>
     </>
   );
