@@ -39,6 +39,15 @@ function Banner() {
           <img src={caching} alt="response time" className="shadow-lg mx-auto w-full" />
         </div>
       </div>
+      <div className="flex-center max-md:flex-col gap-8">
+        <div className="w-2/4 max-md:flex-center flex flex-col gap-4 max-md:w-full">
+          <p className="max-md:text-base md:text-2xl font-bold">مجموعه عملکرد نهایی</p>
+          <p className="max-md:text-base md:text-2xl">یک داشبورد مرکزی برای نظارت، تجزیه و تحلیل و بهینه سازی عملکرد تمام وب سایت های شما.</p>
+        </div>
+        <div className="w-2/4 max-md:w-full">
+          <img src={responseTime} alt="response time" className="shadow-lg mx-auto" />
+        </div>
+      </div>
     </>
   );
 }
