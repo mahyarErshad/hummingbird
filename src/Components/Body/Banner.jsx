@@ -10,11 +10,11 @@ function Banner() {
         <p className="font-bold max-md:text-3xl md:text-[2.5rem] flex-shrink-0 text-white max-lg:w-full w-[50%]">سایت های وردپرسی سریع تر، سبک تر و بهینه تری داشته باشید.</p>
         <BannerImage className="max-md:hidden" />
       </section>
-      <div className="w-full flex-center gap-3">
-        <p className="text-sm">مشتری های ما میگن</p>
+      <div className="w-full flex-center gap-3 flex-wrap">
+        <p className="text-sm whitespace-nowrap">مشتری های ما میگن</p>
         <strong className="text-base">عالی</strong>
         <img src={fiveStars} alt="rating" />
-        <p className="text-sm">4.9 از 5 طبق 2500 نظر در</p>
+        <p className="text-sm whitespace-nowrap">4.9 از 5 طبق 2500 نظر در</p>
         <img src={trustPilot} alt="Trust Pilot" />
       </div>
     </>
