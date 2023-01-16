@@ -24,7 +24,7 @@ function Banner() {
           <p className="max-md:text-base md:text-2xl">یک داشبورد مرکزی برای نظارت، تجزیه و تحلیل و بهینه سازی عملکرد تمام وب سایت های شما.</p>
         </div>
         <div className="w-2/4 max-md:w-full">
-          <img src={responseTime} alt="response time" className="shadow-md mx-auto" />
+          <img src={responseTime} alt="response time" className="shadow-lg mx-auto" />
         </div>
       </div>
     </>
