@@ -7,6 +7,7 @@ function Features() {
       <h2 className="font-bold max-md:text-3xl md:text-4xl">ویژگی ها</h2>
       <div className="max-sm:px-8 max-lg:px-12 lg:pr-[25%] lg:pl-4 self-start">
         <FeaturesCard title="تست و گزارش عملکرد" list={["نتایج دسکتاپ و موبایل", "معیارهای سایت را رصد کنید", "مشاهده معیارهای تایید شده/شکست خورده", "گزارش تجربه کاربر کروم"]} />
+        <FeaturesCard title="نظارت و بهینه سازی زمان پاسخ" list={["مطمئن شوید که سایت های شما به روز هستند", "نظارت بر زمان پاسخ سرور", "تنظیم دوره زمانی گزارش"]} />
       </div>
     </section>
   );
