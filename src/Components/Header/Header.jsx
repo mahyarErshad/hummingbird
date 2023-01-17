@@ -16,7 +16,7 @@ function Navbar() {
         <HeaderNavLinks href="#features" text="ویژگی ها" />
         <HeaderNavLinks text="سوالات متداول" />
         <HeaderNavLinks href="https://wpmudev.com/docs/wpmu-dev-plugins/hummingbird/" target="_blank" text="مستندات" />
-        <HeaderNavLinks text="ترجمه ها" />
+        <HeaderNavLinks href="https://wpmudev.com/translate/projects/wphb/" target="_blank" text="ترجمه ها" />
       </>
     );
   };
