@@ -16,7 +16,7 @@ function Banner() {
         <p className="font-bold max-md:text-3xl md:text-[2.5rem] flex-shrink-0 text-white max-lg:w-full w-[50%]">سایت های وردپرسی سریع تر، سبک تر و بهینه تری داشته باشید.</p>
         <BannerImage className="max-md:hidden" />
       </div>
-      <div className="w-full flex-center gap-2 flex-wrap mb-24">
+      <div id="overview" className="w-full flex-center gap-2 flex-wrap mb-24">
         <p className="text-sm whitespace-nowrap">مشتری های ما میگن</p>
         <strong className="text-base">عالی</strong>
         <img src={fiveStars} alt="rating" className="max-md:hidden" />
