@@ -7,7 +7,7 @@ function FeaturesCard(props) {
       <ul className="list-disc">
         {props.list.map((item, index) => {
           return (
-            <li key={index} className="text-base max-md:mr-8 font-medium text-[#505050]">
+            <li key={index} className="text-base mt-2 max-md:mr-8 font-medium text-[#505050]">
               {item}
             </li>
           );
