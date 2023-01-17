@@ -11,7 +11,7 @@ import SafeModeCard from "../Utils/SafeModeCard/SafeModeCard";
 
 function Banner() {
   return (
-    <section className="max-lg:px-4 lg:px-[15%]">
+    <section id="#overview" className="max-lg:px-4 lg:px-[15%]">
       <div className="banner-wrapper flex items-center max-md:justify-center gap-4 justify-between max-lg:flex-col w-full h-[25rem]">
         <p className="font-bold max-md:text-3xl md:text-[2.5rem] flex-shrink-0 text-white max-lg:w-full w-[50%]">سایت های وردپرسی سریع تر، سبک تر و بهینه تری داشته باشید.</p>
         <BannerImage className="max-md:hidden" />
