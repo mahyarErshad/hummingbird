@@ -12,7 +12,7 @@ function Navbar() {
   const NavLinks = () => {
     return (
       <>
-        <HeaderNavLinks href="#overview" text="بررسی اجمالی" />
+        <HeaderNavLinks text="بررسی اجمالی" />
         <HeaderNavLinks text="ویژگی ها" />
         <HeaderNavLinks text="سوالات متداول" />
         <HeaderNavLinks text="مستندات" />
