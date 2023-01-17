@@ -15,7 +15,7 @@ function Navbar() {
         <HeaderNavLinks href="#overview" text="بررسی اجمالی" />
         <HeaderNavLinks href="#features" text="ویژگی ها" />
         <HeaderNavLinks text="سوالات متداول" />
-        <HeaderNavLinks text="مستندات" />
+        <HeaderNavLinks href="https://wpmudev.com/docs/wpmu-dev-plugins/hummingbird/" target="_blank" text="مستندات" />
         <HeaderNavLinks text="ترجمه ها" />
       </>
     );
