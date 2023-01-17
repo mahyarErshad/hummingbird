@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 function Features() {
   return (
@@ -18,4 +18,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default memo(Features);
