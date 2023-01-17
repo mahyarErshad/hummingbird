@@ -4,7 +4,7 @@ import Features from "./Features";
 
 function MainBody() {
   return (
-    <main className="mt-[3.75rem] pb-8">
+    <main className="mt-[3.75rem]">
       <Banner />
       <Features />
     </main>
