@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.875rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 1.375rem;
+}
+.card{
+
+}
