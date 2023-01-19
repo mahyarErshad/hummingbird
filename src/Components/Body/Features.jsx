@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import AllFeatures from "../Utils/FeaturesCard/AllFeatures";
 import FeaturesCard from "../Utils/FeaturesCard/FeaturesCard";
 
 function Features() {
@@ -15,6 +16,7 @@ function Features() {
       <FeaturesCard title="ابزارهای پیشرفته" list={["مانیتور آپتایم", "پاکسازی پایگاه داده", "لود تنبل", "گزارش های عملکرد"]} />
       <FeaturesCard title="تنظیمات مرغ مگس خوار" list={["راه اندازی Hummingbird Pro ایده آل خود", "با یک کلیک روی همه سایت ها اعمال می شود", "ایجاد تنظیمات نامحدود"]} />
       <FeaturesCard title="دسترسی کامل به هاب" list={["به روز رسانی های خودکار، تنظیمات، عملکرد، زمان آپدیت، تجزیه و تحلیل، گزارش ها، پشتیبانی، صورتحساب مشتری و مدیریت برچسب سفید را از یک مرکز فرماندهی اجرا کنید."]} />
+      <AllFeatures />
     </section>
   );
 }
