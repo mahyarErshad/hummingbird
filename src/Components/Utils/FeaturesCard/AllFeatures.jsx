@@ -4,7 +4,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AllFeatures() {
-  const data = ["ارائه گزارش عملکرد", "توصیه های بهبود سرعت"];
+  const data = ["ارائه گزارش عملکرد", "توصیه های بهبود سرعت", "کش مرورگر", "کش تمام صفحه", "کش گراواتار", "کش RSS", "کوچک کردن فایل ها", "بهینه سازی فونت گوگل", "ترکیب فایل ها", "پاکسازی پایگاه داده", "Cloudflare APO", "رشته های کوئری URL را حذف کنید", "موقعیت بار را تنظیم کنید", "پیکربندی ساده GZIP", "کنترل های پیشرفته بهینه سازی منابع", "بهینه سازی منابع در چند سایت", "به تعویق انداختن / منابع درون خطی", "همگام سازی آسان با مانیتور آپتایم", "اعلان‌های بارگذاری پایین و آهسته", "ردیابی سرعت متوسط ​​صفحه"];
 
   return (
     <div className={`${styles.wrapper} pt-14 w-full max-w-[60rem] mx-auto px-6 flex flex-nowrap items-start justify-start max-md:items-start`}>
