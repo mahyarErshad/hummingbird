@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import styles from "./FeatureCards.module.css";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,4 +15,4 @@ function AllFeatures() {
   );
 }
 
-export default AllFeatures;
+export default memo(AllFeatures);
