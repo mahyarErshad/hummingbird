@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import { ReactComponent as Wheat } from "../../assets/images/wheat.svg";
+import { ReactComponent as smush } from "../../assets/images/smush.svg";
 
 function Badges() {
   return (
@@ -8,10 +9,13 @@ function Badges() {
       <h3 className="font-bold max-md:text-xl md:text-4xl mb-8">توسعه دهندگان وردپرس</h3>
       <p className="text-center font-medium text-lg max-w-[37.5rem] leading-8 max-md:mb-14 md:mb-20">توسعه دهندگان وردپرس در سر تا سر دنیا WPMU DEV را ترجیح میدهند. با میانگین امتیاز 4.9 از 5، بیش از 5000 امتیاز 5/5 و برنده سیزدهمین جشنواره بهترین محصول G2 در بخش بهترین محصول.</p>
       <div className="flex items-start justify-between min-w-[55rem] max-w-[62.5rem] flex-wrap">
-        <div className="flex-center max-w-[16.25rem] gap-1">
-          <Wheat className="flip" />
-          <p className="max-w-[6.125rem] font-bold text-sm text-center">انتخاب توسعه دهندگان وب</p>
-          <Wheat />
+        <div className="flex-center max-w-[16.25rem] flex-col">
+          <div className="flex-center gap-1 mb-5">
+            <Wheat className="flip" />
+            <p className="max-w-[6.125rem] font-bold text-sm text-center">انتخاب توسعه دهندگان وب</p>
+            <Wheat />
+          </div>
+          <p className="text-center text-lg font-bold">انتخاب شماره یک توسعه دهندگان وب وردپرس</p>
         </div>
       </div>
     </section>
