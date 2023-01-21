@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { ReactComponent as Wheat } from "../../assets/images/wheat.svg";
-import { ReactComponent as smush } from "../../assets/images/smush.svg";
+import { ReactComponent as Smush } from "../../assets/images/smush.svg";
 
 function Badges() {
   return (
@@ -12,10 +12,17 @@ function Badges() {
         <div className="flex-center max-w-[16.25rem] flex-col">
           <div className="flex-center gap-1 mb-5">
             <Wheat className="flip" />
-            <p className="max-w-[6.125rem] font-bold text-sm text-center">انتخاب توسعه دهندگان وب</p>
+            <p className="max-w-[6.125rem] font-bold text-sm text-center text-[#6b6b6b]">انتخاب توسعه دهندگان وب</p>
             <Wheat />
           </div>
           <p className="text-center text-lg font-bold">انتخاب شماره یک توسعه دهندگان وب وردپرس</p>
+        </div>
+        <div className="flex-center max-w-[16.25rem] flex-col">
+          <div className="flex-center max-w-[12rem] mb-5">
+            <Smush />
+            <p className="text-[#6b6b6b] font-bold text-sm text-center">پلاگین بهبود عکس Smush</p>
+          </div>
+          <p className="text-center text-lg font-bold">برندگان پشت سر هم Torque Plugin Madness</p>
         </div>
       </div>
     </section>
