@@ -57,8 +57,11 @@ body,
 .flip {
   transform: scaleX(-1);
 }
+.slider {
+  transform: translateY(85px);
+}
 @keyframes verticalSlider {
   0% {
-    
+
   }
 }
