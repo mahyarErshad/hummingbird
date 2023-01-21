@@ -54,3 +54,6 @@ body,
 .featureCards:last-child {
   border-bottom: none;
 }
+.flip {
+  transform: scaleX(-1);
+}
