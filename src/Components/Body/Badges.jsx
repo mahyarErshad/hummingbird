@@ -33,12 +33,13 @@ function Badges() {
           <div className="flex-center mb-5">
             <Wheat className="flip" fill="#F9D949" />
             <div className="overflow-hidden">
-              <div className="max-w-[9.5rem] h-[1.375rem] flex-center flex-col gap-4 slider">
+              <div className="max-w-[9.5rem] h-[1.375rem] flex justify-start items-center flex-col gap-2 slider">
                 <img className="my-1" src={googleReviews} alt="Google Reviews" />
                 <img className="my-1" src={g2} alt="G2 Reviews" />
                 <img className="my-1" src={reviews} alt="Reviews" />
                 <img className="my-1" src={siteJabber} alt="Site Jabber" />
                 <img className="my-1" src={trustPilot} alt="Trust Pilot Slider" />
+                <img className="my-1" src={googleReviews} alt="Google Reviews" />
               </div>
             </div>
             <Wheat fill="#F9D949" />

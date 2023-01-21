@@ -57,11 +57,26 @@ body,
 .flip {
   transform: scaleX(-1);
 }
-.slider {
-  transform: translateY(85px);
-}
 @keyframes verticalSlider {
   0% {
-
+    transform: translateY(0);
   }
+  20% {
+    transform: translateY(-2.1875rem);
+  }
+  40% {
+    transform: translateY(-4.375rem);
+  }
+  60% {
+    transform: translateY(-6.5625rem);
+  }
+  80% {
+    transform: translateY(-8.75rem);
+  }
+  100% {
+    transform: translateY(-10.75rem);
+  }
+}
+.slider {
+  animation: verticalSlider infinite 12s;
 }
