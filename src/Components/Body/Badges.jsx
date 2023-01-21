@@ -17,8 +17,8 @@ function Badges() {
           </div>
           <p className="text-center text-lg font-bold">انتخاب شماره یک توسعه دهندگان وب وردپرس</p>
         </div>
-        <div className="flex-center max-w-[16.25rem] flex-col">
-          <div className="flex-center max-w-[12rem] mb-5">
+        <div className="flex-center max-w-[16.25rem] flex-col gap-3">
+          <div className="flex-center max-w-[12rem] max-md:mb-5">
             <Smush />
             <p className="text-[#6b6b6b] font-bold text-sm text-center">پلاگین بهبود عکس Smush</p>
           </div>
@@ -30,7 +30,7 @@ function Badges() {
             <p className="max-w-[6.125rem] font-bold text-sm text-center text-[#6b6b6b]">انتخاب توسعه دهندگان وب</p>
             <Wheat fill="#F9D949" />
           </div>
-          <p className="text-center text-lg font-bold">انتخاب شماره یک توسعه دهندگان وب وردپرس</p>
+          <p className="text-center text-lg font-bold">از بین بیش از 5000 رای از تمام دنیا</p>
         </div>
       </div>
     </section>
