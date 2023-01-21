@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { ReactComponent as Wheat } from "../../assets/images/wheat.svg";
 
 function Badges() {
@@ -18,4 +18,4 @@ function Badges() {
   );
 }
 
-export default Badges;
+export default memo(Badges);
