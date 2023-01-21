@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Badges() {
   return (
-    <div>Badges</div>
-  )
+    <section className="flex-center">
+      <h2 className="font-bold max-md:text-xl md:text-4xl">توصیه شده توسط</h2>
+      <h3 className="font-bold max-md:text-xl md:text-4xl">توسعه دهندگان وردپرس</h3>
+    </section>
+  );
 }
 
-export default Badges
+export default Badges;
