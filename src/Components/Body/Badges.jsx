@@ -26,9 +26,9 @@ function Badges() {
         </div>
         <div className="flex-center max-w-[16.25rem] flex-col">
           <div className="flex-center gap-1 mb-5">
-            <Wheat className="flip" fill="red" />
+            <Wheat className="flip" fill="#F9D949" />
             <p className="max-w-[6.125rem] font-bold text-sm text-center text-[#6b6b6b]">انتخاب توسعه دهندگان وب</p>
-            <Wheat className="text-[#F9D949]" />
+            <Wheat fill="#F9D949" />
           </div>
           <p className="text-center text-lg font-bold">انتخاب شماره یک توسعه دهندگان وب وردپرس</p>
         </div>
