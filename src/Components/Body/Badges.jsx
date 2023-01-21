@@ -32,12 +32,14 @@ function Badges() {
         <div className="flex-center max-w-[16.25rem] flex-col">
           <div className="flex-center mb-5">
             <Wheat className="flip" fill="#F9D949" />
-            <div className="max-w-[9.5rem]">
-              <img src={googleReviews} alt="Google Reviews" />
-              <img src={g2} alt="G2 Reviews" />
-              <img src={reviews} alt="Reviews" />
-              <img src={siteJabber} alt="Site Jabber" />
-              <img src={trustPilot} alt="Trust Pilot Slider" />
+            <div className="overflow-hidden">
+              <div className="max-w-[9.5rem] h-[1.375rem] flex-center flex-col gap-4">
+                <img className="my-1" src={googleReviews} alt="Google Reviews" />
+                <img className="my-1" src={g2} alt="G2 Reviews" />
+                <img className="my-1" src={reviews} alt="Reviews" />
+                <img className="my-1" src={siteJabber} alt="Site Jabber" />
+                <img className="my-1" src={trustPilot} alt="Trust Pilot Slider" />
+              </div>
             </div>
             <Wheat fill="#F9D949" />
           </div>
