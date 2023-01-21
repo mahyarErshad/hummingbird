@@ -5,6 +5,7 @@ import googleReviews from "../../assets/images/googleReview.JPG";
 import g2 from "../../assets/images/g2.JPG";
 import reviews from "../../assets/images/reviews.JPG";
 import siteJabber from "../../assets/images/siteJabber.JPG";
+import trustPilot from "../../assets/images/trustPilotSlider.JPG";
 
 function Badges() {
   return (
@@ -36,6 +37,7 @@ function Badges() {
               <img src={g2} alt="G2 Reviews" />
               <img src={reviews} alt="Reviews" />
               <img src={siteJabber} alt="Site Jabber" />
+              <img src={trustPilot} alt="Trust Pilot Slider" />
             </div>
             <Wheat fill="#F9D949" />
           </div>
