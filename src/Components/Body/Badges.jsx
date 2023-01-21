@@ -1,6 +1,9 @@
 import React, { memo } from "react";
 import { ReactComponent as Wheat } from "../../assets/images/wheat.svg";
 import { ReactComponent as Smush } from "../../assets/images/smush.svg";
+import googleReviews from "../../assets/images/googleReview.JPG";
+import g2 from "../../assets/images/g2.JPG";
+import reviews from "../../assets/images/reviews.JPG";
 
 function Badges() {
   return (
@@ -25,9 +28,13 @@ function Badges() {
           <p className="text-center text-lg font-bold">برندگان پشت سر هم Torque Plugin Madness</p>
         </div>
         <div className="flex-center max-w-[16.25rem] flex-col">
-          <div className="flex-center gap-1 mb-5">
+          <div className="flex-center mb-5">
             <Wheat className="flip" fill="#F9D949" />
-            
+            <div className="max-w-[9.5rem]">
+              <img src={googleReviews} alt="Google Reviews" />
+              <img src={g2} alt="G2 Reviews" />
+              <img src={reviews} alt="Reviews" />
+            </div>
             <Wheat fill="#F9D949" />
           </div>
           <p className="text-center text-lg font-bold">از بین بیش از 5000 رای از تمام دنیا</p>
