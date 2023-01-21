@@ -27,7 +27,7 @@ function Badges() {
         <div className="flex-center max-w-[16.25rem] flex-col">
           <div className="flex-center gap-1 mb-5">
             <Wheat className="flip" fill="#F9D949" />
-            <p className="max-w-[6.125rem] font-bold text-sm text-center text-[#6b6b6b]">انتخاب توسعه دهندگان وب</p>
+            
             <Wheat fill="#F9D949" />
           </div>
           <p className="text-center text-lg font-bold">از بین بیش از 5000 رای از تمام دنیا</p>
