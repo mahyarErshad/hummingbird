@@ -34,7 +34,9 @@
 .swiper-button-next {
   transform: scaleX(-1);
 }
-
+.swiper-wrapper{
+    cursor: pointer;
+}
 @media screen and (max-width: 750px) {
   .swiper {
     max-width: 26.25rem;
