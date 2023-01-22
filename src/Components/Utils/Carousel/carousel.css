@@ -4,7 +4,7 @@
     margin: 0;
     margin-top: 5rem;
   }
-  
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -20,4 +20,9 @@
   .swiper-wrapper{
     max-height: 9.375rem;
     margin: 0 auto;
+  }
+  @media screen and (max-width: 750px) {
+    .swiper {
+      max-width: 26.25rem;
+    }
   }
