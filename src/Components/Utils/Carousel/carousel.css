@@ -31,6 +31,9 @@
 .swiper-button-prev:after {
   content: "" !important;
 }
+.swiper-button-next {
+  transform: scaleX(-1);
+}
 
 @media screen and (max-width: 750px) {
   .swiper {
