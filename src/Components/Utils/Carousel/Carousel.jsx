@@ -7,14 +7,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import "./styles.css";
-
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 
 export default function App() {
   return (
-    <>
+    <div className="w-full">
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
@@ -35,6 +33,6 @@ export default function App() {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
