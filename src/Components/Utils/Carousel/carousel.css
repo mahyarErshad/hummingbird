@@ -23,10 +23,12 @@
 .swiper-button-prev,
 .swiper-button-next {
   content: " " !important;
-  background-image: url(../../../assets/images/wheat.svg) !important;
-  font-size: 0;
+  background-image: url(../../../assets/images/wheatGreen.svg) !important;
+  height: 100%;
+  background-repeat: no-repeat;
 }
-.swiper-button-next:after , .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
   content: "" !important;
 }
 
