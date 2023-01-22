@@ -6,6 +6,7 @@ import g2 from "../../assets/images/g2.JPG";
 import reviews from "../../assets/images/reviews.JPG";
 import siteJabber from "../../assets/images/siteJabber.JPG";
 import trustPilot from "../../assets/images/trustPilotSlider.JPG";
+import Carousel from "../Utils/Carousel/Carousel";
 
 function Badges() {
   return (
@@ -47,6 +48,7 @@ function Badges() {
           <p className="text-center text-lg font-bold">از بین بیش از 5000 رای از تمام دنیا</p>
         </div>
       </div>
+      <Carousel />
     </section>
   );
 }
