@@ -65,7 +65,7 @@ export default function Carousel() {
         {arr.map((item, index) => {
           return (
             <SwiperSlide>
-              <img src={item} alt={item} key={index} />
+              <img className="object-contain object-center max-h-[6.875rem]" src={item} alt={item} key={index} />
             </SwiperSlide>
           );
         })}
