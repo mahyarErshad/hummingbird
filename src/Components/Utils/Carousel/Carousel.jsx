@@ -35,6 +35,7 @@ export default function Carousel() {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
+      <h2 className="text-lg font-bold my-5">برنده بهترین محصول 2022 G2</h2>
     </>
   );
 }
