@@ -6,6 +6,7 @@ import g2 from "../../assets/images/g2.JPG";
 import reviews from "../../assets/images/reviews.JPG";
 import siteJabber from "../../assets/images/siteJabber.JPG";
 import trustPilot from "../../assets/images/trustPilotSlider.JPG";
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 function Badges() {
   return (
