@@ -7,10 +7,11 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
+import "swiper/css/navigation";
 import "./carousel.css";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Navigation, Pagination } from "swiper";
 
 export default function Carousel() {
   return (
@@ -19,10 +20,11 @@ export default function Carousel() {
         slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
+        navigation={true}
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        modules={[FreeMode, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>Slide 1</SwiperSlide>
