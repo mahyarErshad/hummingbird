@@ -62,15 +62,13 @@ export default function Carousel() {
         modules={[FreeMode, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {arr.map((item, index) => {
+          return (
+            <SwiperSlide>
+              <img src={item} alt={item} key={index} />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
       <h2 className="text-lg font-bold my-5">برنده بهترین محصول 2022 G2</h2>
     </>
