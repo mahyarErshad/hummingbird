@@ -13,7 +13,7 @@ function AllFeatures() {
         return (
           <div key={index} className={`${styles.card} max-md:w-full my-3 md:w-[26.25rem]`}>
             <FontAwesomeIcon className={`${styles.icon} w-fit`} icon={faCheck} />
-            <p className="font-medium flex-grow">{item}</p>
+            <p className="md:whitespace-nowrap font-medium flex-grow">{item}</p>
           </div>
         );
       })}
