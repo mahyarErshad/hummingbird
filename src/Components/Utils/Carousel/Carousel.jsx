@@ -88,7 +88,7 @@ export default function Carousel() {
           el: ".swiper-pagination",
           clickable: true,
           renderBullet: function (index, className) {
-            return `<span class="dot swiper-pagination-bullet"></span>`;
+            return `<span class="dot swiper-pagination-bullet cursor-pointer"></span>`;
           },
         }}
         modules={[Pagination, Autoplay]}

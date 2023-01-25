@@ -34,9 +34,8 @@
 .swiper-pagination {
   position: absolute;
   top: 125%;
-  left: auto;
-  width: auto;
   margin: 0;
+  width: auto !important;
 }
 .swiper-pagination-bullet {
   border-radius: 50%;
