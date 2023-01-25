@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -48,7 +48,7 @@ import image33 from "../../../assets/images/slider/33.svg";
 import image34 from "../../../assets/images/slider/34.svg";
 import { ReactComponent as Wheat } from "../../../assets/images/wheat.svg";
 
-export default function Carousel() {
+function Carousel() {
   const array = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29, image30, image31, image32, image33, image34];
   const [swiperRef, setSwiperRef] = useState(null);
 
@@ -122,3 +122,4 @@ export default function Carousel() {
     </>
   );
 }
+export default memo(Carousel)

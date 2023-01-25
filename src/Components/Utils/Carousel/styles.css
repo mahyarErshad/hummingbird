@@ -34,6 +34,7 @@
 .swiper-pagination {
   position: absolute;
   top: 150%;
+  left: 38% !important;
   margin: 0;
   width: auto !important;
 }
@@ -56,5 +57,8 @@
   }
   .left-button {
     left: 13% !important;
+  }
+  .swiper-pagination {
+    left: 30% !important;
   }
 }
