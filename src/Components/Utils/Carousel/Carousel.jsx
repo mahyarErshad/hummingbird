@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "./styles.css";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 // images
 import image1 from "../../../assets/images/slider/1.svg";
@@ -50,25 +50,38 @@ import image34 from "../../../assets/images/slider/34.svg";
 export default function Carousel() {
   const array = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29, image30, image31, image32, image33, image34];
   return (
-    <section className="max-w-[58.75rem] mt-20 mx-auto">
+    <section className="mt-20 mx-auto w-[31.25rem]">
       <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
+        slidesPerView={3}
+        spaceBetween={20}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        rewind={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {array.map((item) => {
+          return (
+            <SwiperSlide key={item} className="w-[5.3125rem] h-[6.875rem]">
+              <img src={item} alt={item} />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </section>
   );
