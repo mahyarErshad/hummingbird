@@ -60,49 +60,52 @@ export default function Carousel() {
     swiperRef.slideNext();
   };
   return (
-    <section className="mt-20 flex-center max-md:w-[28.125rem] md:w-[31.25rem] relative">
-      <button className="absolute right-button right-[-2.5rem] top-[25%]" onClick={prevHandler}>
-        <Wheat className="flip" fill="#23cca2" />
-      </button>
-      <button className="absolute left-button left-[-2.5rem] top-[25%]" onClick={nextHandler}>
-        <Wheat fill="#23cca2" />
-      </button>
-      <Swiper
-        onSwiper={(swiper) => setSwiperRef(swiper)}
-        breakpoints={{
-          550: {
-            slidesPerView: 2,
-            spaceBetween: 0,
-          },
-          600: {
-            slidesPerView: 4,
-            spaceBetween: 30,
-          },
-        }}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        rewind={true}
-        pagination={{
-          el: ".swiper-pagination",
-          clickable: true,
-          renderBullet: function (index, className) {
-            return `<span class="dot swiper-pagination-bullet cursor-pointer"></span>`;
-          },
-        }}
-        modules={[Pagination, Autoplay]}
-        className="mySwiper"
-      >
-        {array.map((item) => {
-          return (
-            <SwiperSlide key={item} className="max-md:w-[1.5625rem] md:w-[5.3125rem] h-[6.875rem]">
-              <img src={item} alt={item} />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-      <div className="swiper-pagination flex-center gap-1"></div>
-    </section>
+    <>
+      <section className="mt-20 flex-center max-md:w-[28.125rem] md:w-[31.25rem] relative">
+        <button className="absolute right-button right-[-2.5rem] top-[25%]" onClick={prevHandler}>
+          <Wheat className="flip" fill="#23cca2" />
+        </button>
+        <button className="absolute left-button left-[-2.5rem] top-[25%]" onClick={nextHandler}>
+          <Wheat fill="#23cca2" />
+        </button>
+        <Swiper
+          onSwiper={(swiper) => setSwiperRef(swiper)}
+          breakpoints={{
+            550: {
+              slidesPerView: 2,
+              spaceBetween: 0,
+            },
+            600: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          rewind={true}
+          pagination={{
+            el: ".swiper-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+              return `<span class="dot swiper-pagination-bullet cursor-pointer"></span>`;
+            },
+          }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          {array.map((item) => {
+            return (
+              <SwiperSlide key={item} className="max-md:w-[1.5625rem] md:w-[5.3125rem] h-[6.875rem]">
+                <img src={item} alt={item} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+        <div className="swiper-pagination flex-center gap-1"></div>
+      </section>
+      <h2 className="mt-3 font-bold text-lg">برنده جایزه بهترین محصول سال 2022 G2</h2>
+    </>
   );
 }
