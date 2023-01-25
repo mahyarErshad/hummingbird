@@ -33,9 +33,6 @@ body,
 #root {
   min-width: 376px;
 }
-body{
-  overflow-x: hidden;
-}
 .flex-center {
   display: flex;
   justify-content: center;
