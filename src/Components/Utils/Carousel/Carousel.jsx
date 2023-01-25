@@ -97,7 +97,7 @@ export default function Carousel() {
         >
           {array.map((item) => {
             return (
-              <SwiperSlide key={item} className="max-md:w-[1.5625rem] md:w-[5.3125rem] h-[6.875rem]">
+              <SwiperSlide key={item} className="max-md:w-[1.5625rem] md:w-[5.3125rem] h-[6.875rem] cursor-pointer">
                 <img src={item} alt={item} />
               </SwiperSlide>
             );
