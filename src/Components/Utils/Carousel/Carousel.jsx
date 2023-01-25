@@ -85,7 +85,11 @@ export default function Carousel() {
         }}
         rewind={true}
         pagination={{
+          el: ".swiper-pagination",
           clickable: true,
+          renderBullet: function (className) {
+            return `<span class="dot swiper-pagination-bullet"></span>`;
+          },
         }}
         modules={[Pagination, Autoplay]}
         className="mySwiper"
@@ -98,6 +102,7 @@ export default function Carousel() {
           );
         })}
       </Swiper>
+      <div class="swiper-pagination flex-center gap-1 relative w-2/4"></div>
     </section>
   );
 }
