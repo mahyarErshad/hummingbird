@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -59,6 +59,19 @@ export default function Carousel() {
   const nextHandler = () => {
     swiperRef.slideNext();
   };
+  useEffect(() => {
+    let i = 0;
+    while (i <= 30) {
+      ++i;
+      if (i % 5 !== 0) {
+        const paginationButton = document.getElementById(`dot-${i}`);
+        if (paginationButton !== null) {
+          paginationButton.parentNode.removeChild(paginationButton);
+        }
+      }
+    }
+  }, []);
+
   return (
     <>
       <section className="mt-20 flex-center max-md:w-[28.125rem] md:w-[31.25rem] relative">
@@ -89,7 +102,7 @@ export default function Carousel() {
             el: ".swiper-pagination",
             clickable: true,
             renderBullet: function (index, className) {
-              return `<span class="dot swiper-pagination-bullet cursor-pointer"></span>`;
+              return `<span id="dot-${index}" class="dot swiper-pagination-bullet cursor-pointer"></span>`;
             },
           }}
           modules={[Pagination, Autoplay]}
