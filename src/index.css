@@ -80,3 +80,19 @@ body,
 .slider {
   animation: verticalSlider infinite 12s;
 }
+
+@keyframes FAQOpen {
+  from {
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    height: fit-content;
+    opacity: 1;
+  }
+}
+@keyframes FAQClose {
+}
+.FaqOpen {
+  animation: FAQOpen forwards 0.5s;
+}
