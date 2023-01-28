@@ -92,7 +92,18 @@ body,
   }
 }
 @keyframes FAQClose {
+  from {
+    height: fit-content;
+    opacity: 1;
+  }
+  to {
+    height: 0px;
+    opacity: 0;
+  }
 }
 .FaqOpen {
   animation: FAQOpen forwards 0.5s;
+}
+.FaqClose {
+  animation: FAQClose forwards 0.5s;
 }
