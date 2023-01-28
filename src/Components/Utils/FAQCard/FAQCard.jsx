@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -15,4 +15,4 @@ function FAQCard({ title, description }) {
   );
 }
 
-export default FAQCard;
+export default memo(FAQCard);
