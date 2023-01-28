@@ -86,11 +86,13 @@ body,
     height: 0px;
     opacity: 0;
     margin-top: 0;
+    visibility: hidden;
   }
   to {
     height: fit-content;
     opacity: 1;
     margin-top: 2rem;
+    visibility: visible;
   }
 }
 @keyframes FAQClose {
@@ -98,11 +100,13 @@ body,
     height: fit-content;
     opacity: 1;
     margin-top: 2rem;
+    visibility: visible;
   }
   to {
     height: 0px;
     opacity: 0;
     margin-top: 0;
+    visibility: hidden;
   }
 }
 .FaqOpen {
