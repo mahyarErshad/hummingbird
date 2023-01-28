@@ -85,20 +85,24 @@ body,
   from {
     height: 0px;
     opacity: 0;
+    margin-top: 0;
   }
   to {
     height: fit-content;
     opacity: 1;
+    margin-top: 2rem;
   }
 }
 @keyframes FAQClose {
   from {
     height: fit-content;
     opacity: 1;
+    margin-top: 2rem;
   }
   to {
     height: 0px;
     opacity: 0;
+    margin-top: 0;
   }
 }
 .FaqOpen {
