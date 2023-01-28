@@ -83,35 +83,37 @@ body,
 
 @keyframes FAQOpen {
   from {
-    height: 0px;
+    transform: scaleY(0);
     opacity: 0;
     margin-top: 0;
-    visibility: hidden;
+    height: 0;
   }
   to {
-    height: fit-content;
+    transform: scaleY(1);
     opacity: 1;
     margin-top: 2rem;
-    visibility: visible;
+    height: fit-content;
   }
 }
 @keyframes FAQClose {
   from {
-    height: fit-content;
+    transform: scaleY(1);
     opacity: 1;
     margin-top: 2rem;
-    visibility: visible;
+    height: fit-content;
   }
   to {
-    height: 0px;
+    transform: scaleY(0);
     opacity: 0;
     margin-top: 0;
-    visibility: hidden;
+    height: 0;
   }
 }
 .FaqOpen {
+  transform-origin: top;
   animation: FAQOpen forwards 0.5s;
 }
 .FaqClose {
+  transform-origin: top;
   animation: FAQClose forwards 0.5s;
 }
