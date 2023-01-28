@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import FAQCard from "../Utils/FAQCard/FAQCard";
 
 function FAQ() {
@@ -32,4 +32,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+export default memo(FAQ);
